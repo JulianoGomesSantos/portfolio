@@ -1,0 +1,41 @@
+.NavbarContainer {
+  height: 70px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.HomeButton {
+  color: #67e480;
+  transition: 0.3s;
+}
+.HomeButton:hover {
+  filter: brightness(70%);
+}
+
+a {
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.LinksContainer {
+  width: 400px;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font: 700 1.1rem "Heebo";
+}
+
+.LinksContainer a {
+  color: #988bc7;
+}
+
+.NavbarContainer a:first-child {
+  align-self: center;
+  margin-left: 30px;
+  font-family: "Heebo", sans-serif;
+}

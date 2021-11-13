@@ -1,7 +1,10 @@
+import { Navbar } from "./components/navbar";
+import "./styles/home.css";
+
 function App() {
   return (
-    <div className="App">
-     Banana
+    <div className="HomeContainer">
+      <Navbar />
     </div>
   );
 }
