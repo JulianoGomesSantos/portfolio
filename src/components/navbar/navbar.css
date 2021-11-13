@@ -1,6 +1,8 @@
 .NavbarContainer {
+  background: #191622;
+  position: sticky;
+  top: 0;
   height: 70px;
-  width: 100vw;
   display: flex;
   justify-content: space-between;
 }
