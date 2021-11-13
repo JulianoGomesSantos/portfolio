@@ -4,7 +4,9 @@ import "./techs.css";
 export function Techs() {
   return (
     <div className="TechsContainer">
-      <div>dsadasd</div>
+      <div>
+        <h2>Techs</h2>
+      </div>
     </div>
   );
 }

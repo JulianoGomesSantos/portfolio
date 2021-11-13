@@ -3,15 +3,12 @@ import "./navbar.css";
 
 export function Navbar() {
   return (
-    <div className="NavbarContainer">
-      <a href="#">
-        <h1 className="HomeButton">Juliano Gomes.</h1>
-      </a>
+    <div className="NavbarContainer" id="navbar">
       <div className="LinksContainer">
-        <a href="#">Techs</a>
+        <a href="#">Sobre mim</a>
+        <a href="#">Skills</a>
         <a href="#">Galeria</a>
         <a href="#">Contato</a>
-        <a href="#">Login</a>
       </div>
     </div>
   );

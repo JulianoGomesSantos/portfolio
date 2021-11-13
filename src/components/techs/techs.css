@@ -1,4 +1,17 @@
 .TechsContainer {
-  background: rgb(211, 211, 211);
+  background: #483c67;
   height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TechsContainer div {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: red;
+  height: 100%;
 }

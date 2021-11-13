@@ -4,15 +4,7 @@
   top: 0;
   height: 70px;
   display: flex;
-  justify-content: space-between;
-}
-
-.HomeButton {
-  color: #67e480;
-  transition: 0.3s;
-}
-.HomeButton:hover {
-  filter: brightness(70%);
+  justify-content: center;
 }
 
 a {
@@ -22,7 +14,7 @@ a {
 }
 
 .LinksContainer {
-  width: 400px;
+  width: 30%;
   height: 100%;
 
   display: flex;
