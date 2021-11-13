@@ -1,5 +1,6 @@
 .ProfileContainer {
-  height: 80vh;
+  background: #191622;
+  height: 100vh;
 
   display: flex;
   align-items: center;

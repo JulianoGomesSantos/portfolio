@@ -8,6 +8,7 @@ export function Navbar() {
         <h1 className="HomeButton">Juliano Gomes.</h1>
       </a>
       <div className="LinksContainer">
+        <a href="#">Techs</a>
         <a href="#">Galeria</a>
         <a href="#">Contato</a>
         <a href="#">Login</a>

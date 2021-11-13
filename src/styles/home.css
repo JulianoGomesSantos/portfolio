@@ -10,6 +10,19 @@ html {
   box-sizing: border-box;
 }
 
-.HomeContainer {
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
   background: #191622;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #988bc7;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7363a5;
 }
