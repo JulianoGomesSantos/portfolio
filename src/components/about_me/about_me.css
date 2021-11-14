@@ -1,0 +1,51 @@
+.AboutMeContainer {
+  background: #483c67;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AboutMeContainer .Content {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  color: #e7e7e7;
+
+  height: 100%;
+}
+.AboutMeSubHeader {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.AboutMeHeader {
+  border: 5px solid #e7e7e7;
+  border-radius: 8px;
+  width: 320px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e7e7e7;
+  font: 500 2rem "Heebo";
+}
+
+.AboutMeItemsContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #e7e7e7;
+}
+
+.AboutMeItems {
+  width: 40vw;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

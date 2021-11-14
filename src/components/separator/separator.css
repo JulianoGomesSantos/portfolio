@@ -1,0 +1,7 @@
+.SeparatorContainer {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font: 700 1.8rem "Heebo";
+}

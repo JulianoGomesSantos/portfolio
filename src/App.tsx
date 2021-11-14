@@ -5,6 +5,7 @@ import { Techs } from "./components/techs";
 import "./styles/home.css";
 
 import { MdOutlineKeyboardArrowUp } from "react-icons/md";
+import { AboutMe } from "./components/about_me";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <div className="HomeContainer" id="navbar">
         <Navbar />
         <Profile />
+        <AboutMe />
         <Techs />
       </div>
     </>
