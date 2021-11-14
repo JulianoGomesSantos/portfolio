@@ -10,22 +10,24 @@ function App() {
   return (
     <>
       <a className="toTop" href="#navbar">
-        <MdOutlineKeyboardArrowUp color="988bc7" size="50px" />
+        <MdOutlineKeyboardArrowUp color="67e480" size="50px" />
       </a>
       <div className="HomeContainer" id="navbar">
         <div className="NavbarContainer" id="navbar">
           <div className="LinksContainer">
             <a href="#profile">Sobre mim</a>
-            <a href="#techs">Skills</a>
+
             <a href="#">Galeria</a>
-            <a href="#">Contato</a>
+            <a id="contact" href="#">
+              Contato
+            </a>
           </div>
         </div>
         <Profile />
         <div id="profile">
           <AboutMe />
         </div>
-        <div id="techs">
+        <div>
           <Techs />
         </div>
       </div>

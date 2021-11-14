@@ -22,14 +22,14 @@ export function AboutMe() {
         <div className="AboutMeItemsContent">
           <div className="AboutMeItems">
             <div>
-              <FiFigma />
+              <FiFigma color="67e480" />
               <AboutContent
                 title="DESIGN"
                 text="O Gerador de Lero-lero para TI e informática foi baseado no Fabuloso Gerador de Lero-lero v2.0."
               />
             </div>
             <div>
-              <FaTools />
+              <FaTools color="67e480" />
               <AboutContent
                 title="DEVELOPMENT"
                 text="O Gerador de Lero-lero para TI e informática foi baseado no Fabuloso Gerador de Lero-lero v2.0."
@@ -37,7 +37,7 @@ export function AboutMe() {
             </div>
           </div>
           <div>
-            <FaPencilAlt />
+            <FaPencilAlt color="67e480" />
             <AboutContent
               title="DRAWINGS"
               text="O Gerador de Lero-lero para TI e informática foi baseado no Fabuloso Gerador de Lero-lero v2.0."

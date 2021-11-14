@@ -1,5 +1,5 @@
 .AboutMeContainer {
-  background: #483c67;
+  background: #191622;
   height: 100vh;
 
   display: flex;
@@ -12,14 +12,14 @@
   margin-bottom: 30px;
 }
 .AboutMeHeader {
-  border: 5px solid #e7e7e7;
-  border-radius: 8px;
+  border: 3px solid #67e480;
+
   width: 320px;
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #e7e7e7;
+  color: #67e480;
   font: 500 2rem "Heebo";
 }
 
@@ -37,4 +37,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.Content {
+  background: #483c67;
 }

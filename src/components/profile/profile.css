@@ -30,17 +30,17 @@
 .AboutMe button {
   width: 250px;
   height: 70px;
-  border-radius: 8px;
-  border: solid 2px #988bc7;
+
+  border: solid 2px #67e480;
   background: none;
   font: 700 1.2rem Heebo;
-  color: #988bc7;
+  color: #67e480;
 
   transition: 0.8s;
 }
 
 .AboutMe button:hover {
-  background: #988bc7;
+  background: #67e480;
   color: #191622;
   cursor: pointer;
 }
@@ -56,6 +56,9 @@
   font: 500 1.1rem "Heebo";
 }
 
+.AboutMe span {
+  color: #67e480;
+}
 .Photo {
   display: flex;
   align-items: center;

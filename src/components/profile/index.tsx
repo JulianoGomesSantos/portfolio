@@ -9,12 +9,12 @@ export function Profile() {
           <div className="AboutMe">
             <div>
               <h2>
-                Olá, Eu sou o Juliano, <br />
-                Designer & Software Developer
+                Olá, eu sou o <span>Juliano</span>, <br />
+                Designer <span>&</span> Software Developer
               </h2>
               <p>
                 Cursando Análise e desenvolvimento de Sistemas, curto fazer
-                desenhos, programar e jogar nas horas vagas
+                desenhos, programar e jogar nas horas vagas.
               </p>
               <button>Download Curriculo</button>
             </div>

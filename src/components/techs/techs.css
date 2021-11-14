@@ -1,5 +1,5 @@
 .TechsContainer {
-  background: #483c67;
+  background: #191622;
   height: 100vh;
 
   display: flex;
@@ -14,4 +14,34 @@
 .TechsContainer .TechsSubHeader {
   margin-top: 50px;
   margin-bottom: 30px;
+}
+.TechsContentContainer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.TechsContent {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+}
+
+.TechsContent span {
+  color: #67e480;
+  font: 300 1.8rem "Heebo";
+}
+
+.TechsContent div {
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font: 300 8rem "Heebo";
 }

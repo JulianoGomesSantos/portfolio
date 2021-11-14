@@ -12,3 +12,7 @@
 .AboutContentContainer span {
   font-size: 0.8rem;
 }
+
+.AboutContentContainer strong {
+  color: #67e480;
+}
