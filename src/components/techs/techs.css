@@ -6,12 +6,12 @@
   align-items: center;
   justify-content: center;
 }
+.TechsSubHeader {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
 
-.TechsContainer div {
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: red;
-  height: 100%;
+.TechsContainer .TechsSubHeader {
+  margin-top: 50px;
+  margin-bottom: 30px;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { AboutContent } from "../about_content";
 import { Separator } from "../separator";
+import { HeaderContent } from "../header_content";
 
 import { FaTools, FaPencilAlt } from "react-icons/fa";
 import { FiFigma } from "react-icons/fi";
@@ -11,7 +12,8 @@ export function AboutMe() {
   return (
     <div className="AboutMeContainer">
       <div className="Content">
-        <div className="AboutMeHeader">Sobre mim</div>
+        <HeaderContent title="Sobre mim" />
+
         <span className="AboutMeSubHeader">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
           dui quis orci lacinia tempus. Donec ligula ipsum
