@@ -48,3 +48,38 @@ html {
 .toTop:hover {
   filter: brightness(90%);
 }
+.NavbarContainer {
+  background: #191622;
+  position: sticky;
+  top: 0;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.LinksContainer {
+  width: 30%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font: 700 1.1rem "Heebo";
+}
+
+.LinksContainer a {
+  color: #988bc7;
+}
+
+.NavbarContainer a:first-child {
+  align-self: center;
+  margin-left: 30px;
+  font-family: "Heebo", sans-serif;
+}

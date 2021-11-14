@@ -1,5 +1,4 @@
 import React from "react";
-import { Navbar } from "./components/navbar";
 import { Profile } from "./components/profile";
 import { Techs } from "./components/techs";
 import "./styles/home.css";
@@ -14,10 +13,21 @@ function App() {
         <MdOutlineKeyboardArrowUp color="988bc7" size="50px" />
       </a>
       <div className="HomeContainer" id="navbar">
-        <Navbar />
+        <div className="NavbarContainer" id="navbar">
+          <div className="LinksContainer">
+            <a href="#profile">Sobre mim</a>
+            <a href="#techs">Skills</a>
+            <a href="#">Galeria</a>
+            <a href="#">Contato</a>
+          </div>
+        </div>
         <Profile />
-        <AboutMe />
-        <Techs />
+        <div id="profile">
+          <AboutMe />
+        </div>
+        <div id="techs">
+          <Techs />
+        </div>
       </div>
     </>
   );
