@@ -1,10 +1,14 @@
 .AboutContentContainer {
   width: 340px;
-  height: 100px;
+  height: 90px;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
 
   font-family: "Heebo";
+}
+
+.AboutContentContainer span {
+  font-size: 0.8rem;
 }
