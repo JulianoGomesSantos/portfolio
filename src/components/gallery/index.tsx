@@ -4,19 +4,17 @@ import Modal from "react-modal";
 
 import { AiOutlinePlusCircle, AiOutlineClose } from "react-icons/ai";
 import { CarouselComponent } from "../carousel";
+import { appendFileSync } from "fs";
+
+import api from "../../../services/api";
 
 export function Gallery() {
-  const data = [
-    {
-      image: "https://i.imgur.com/jmYUXhy.jpeg",
-      caption: "San Francisco",
-    },
-  ];
-
-  const [clicked, setClicked] = useState(true);
+  const [clicked, setClicked] = useState(false);
 
   const [url, setUrl] = useState("");
   const [name, setName] = useState("");
+
+  api.
 
   if (clicked) {
     return (
