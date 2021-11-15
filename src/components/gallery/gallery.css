@@ -17,3 +17,13 @@
 .GalleryContainer h2 {
   color: #67e480;
 }
+
+#addImageIcon {
+  margin-top: 22px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+#addImageIcon:hover {
+  color: #67e480;
+}
