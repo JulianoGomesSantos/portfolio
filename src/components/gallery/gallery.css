@@ -12,7 +12,7 @@
   justify-content: center;
 
   font-family: "Heebo";
-  color: white;
+  color: #67e480;
 }
 .GalleryContainer h2 {
   color: #67e480;
@@ -26,4 +26,99 @@
 
 #addImageIcon:hover {
   color: #67e480;
+}
+
+.GalleryModalContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0d0c13;
+  width: 50%;
+  height: 60%;
+  border-radius: 2px;
+}
+
+.CloseButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #67e480;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.CloseButton:hover {
+  filter: brightness(70%);
+}
+
+.Preview {
+  width: 70%;
+  height: 100%;
+  background-size: cover;
+}
+
+.GalleryModalContiner form {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.GalleryModalContainer form {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.GalleryModalContainer form > * {
+  width: 80%;
+  height: 30px;
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+form > input[type="text"] {
+  color: white;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+
+  border-bottom: 2px solid white;
+  transition: 0.3s;
+}
+
+form input[type="text"]:hover {
+  color: #67e480;
+
+  border-bottom: 2px solid #67e480;
+}
+
+form input[type="text"]:focus {
+  color: #67e480;
+
+  border-bottom: 2px solid #67e480;
+}
+
+form > input[type="submit"] {
+  border: 2px solid #67e480;
+  border-radius: 2px;
+  background: transparent;
+  color: #67e480;
+  height: 60px;
+  font: 700 1rem "Heebo";
+  transition: 0.3s;
+}
+
+form > input[type="submit"]:hover {
+  background: #67e480;
+  color: #0d0c13;
+  font: 700 1rem "Heebo";
 }

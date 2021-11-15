@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./gallery.css";
 import Modal from "react-modal";
 
-import { AiOutlinePlusCircle } from "react-icons/ai";
+import { AiOutlinePlusCircle, AiOutlineClose } from "react-icons/ai";
 
 const { Carousel } = require("react-carousel-minimal");
 
@@ -16,6 +16,9 @@ export function Gallery() {
 
   const [clicked, setClicked] = useState(true);
 
+  const [url, setUrl] = useState("");
+  const [name, setName] = useState("");
+
   const captionStyle = {
     fontSize: "2em",
     fontWeight: "bold",
@@ -27,9 +30,44 @@ export function Gallery() {
 
   if (clicked) {
     return (
-      <Modal isOpen={clicked}>
+      <Modal
+        isOpen={clicked}
+        style={{
+          overlay: { background: "#000000e5" },
+          content: {
+            background: "transparent",
+            border: "none",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          },
+        }}
+      >
         <div className="GalleryModalContainer">
-          <button onClick={() => setClicked(false)}>Close</button>
+          <form>
+            <input
+              type="text"
+              required
+              placeholder="URL da imagem"
+              onChange={(event) => setUrl(event.target.value)}
+            />
+            <input
+              type="text"
+              required
+              placeholder="Nome da imagem"
+              onChange={(event) => setName(event.target.value)}
+            />
+            <input type="submit" value="SALVAR" />
+          </form>
+          <div
+            className="Preview"
+            style={{
+              backgroundImage: `url(${url})`,
+            }}
+          ></div>
+          <a className="CloseButton" onClick={() => setClicked(false)}>
+            <AiOutlineClose size={32} />
+          </a>
         </div>
       </Modal>
     );

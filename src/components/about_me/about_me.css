@@ -44,8 +44,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.Content {
+  position: relative;
   border-top: 2px solid #67e480;
 }
