@@ -1,5 +1,5 @@
-import React from "react";
-const { Carousel } = require("react-carousel-minimal");
+import React from 'react';
+const { Carousel } = require('react-carousel-minimal');
 
 interface Props {
   data: object;
@@ -7,12 +7,12 @@ interface Props {
 
 export function CarouselComponent(props: Props) {
   const captionStyle = {
-    fontSize: "2em",
-    fontWeight: "bold",
+    fontSize: '2em',
+    fontWeight: 'bold',
   };
   const slideNumberStyle = {
-    fontSize: "20px",
-    fontWeight: "bold",
+    fontSize: '20px',
+    fontWeight: 'bold',
   };
   return (
     <Carousel
@@ -35,10 +35,10 @@ export function CarouselComponent(props: Props) {
       thumbnailWidth="100px"
       thumbnailHeight="100px"
       style={{
-        textAlign: "center",
-        maxWidth: "850px",
-        maxHeight: "500px",
-        margin: "40px auto",
+        textAlign: 'center',
+        maxWidth: '850px',
+        maxHeight: '500px',
+        margin: '40px auto',
       }}
     />
   );

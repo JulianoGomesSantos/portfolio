@@ -1,33 +1,52 @@
-import React, { useState } from "react";
-import "./gallery.css";
-import Modal from "react-modal";
+import React, { useEffect, useState } from 'react';
+import './gallery.css';
+import Modal from 'react-modal';
 
-import { AiOutlinePlusCircle, AiOutlineClose } from "react-icons/ai";
-import { CarouselComponent } from "../carousel";
-import { appendFileSync } from "fs";
+import { AiOutlinePlusCircle, AiOutlineClose } from 'react-icons/ai';
+import { CarouselComponent } from '../carousel';
+import { appendFileSync } from 'fs';
 
-import api from "../../../services/api";
+import api from '../../services/api';
 
 export function Gallery() {
   const [clicked, setClicked] = useState(false);
 
-  const [url, setUrl] = useState("");
-  const [name, setName] = useState("");
+  const [url, setUrl] = useState('');
+  const [name, setName] = useState('');
+  const [data, setData] = useState([
+    {
+      image: 'https://i.imgur.com/jmYUXhy.jpeg',
+      caption: 'San Francisco',
+    },
+  ]);
 
-  api.
+  useEffect(() => {
+    api.get('/api').then((response) => {
+      setData(response.data.image);
+    });
+  }, []);
+
+  function handleInsert() {
+    api.post('/api', {
+      image: url,
+      caption: name,
+    });
+  }
+
+  handleInsert();
 
   if (clicked) {
     return (
       <Modal
         isOpen={clicked}
         style={{
-          overlay: { background: "#000000e5" },
+          overlay: { background: '#000000e5' },
           content: {
-            background: "transparent",
-            border: "none",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
+            background: 'transparent',
+            border: 'none',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
           },
         }}
       >
@@ -62,7 +81,7 @@ export function Gallery() {
   }
   return (
     <div className="GalleryContainer">
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: 'center' }}>
         <h2>Galeria</h2>
         <div>
           <AiOutlinePlusCircle
@@ -73,7 +92,7 @@ export function Gallery() {
         </div>
         <div
           style={{
-            padding: "0 20px",
+            padding: '0 20px',
           }}
         >
           <CarouselComponent data={data} />
