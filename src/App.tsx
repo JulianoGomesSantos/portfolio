@@ -5,6 +5,7 @@ import "./styles/home.css";
 
 import { MdOutlineKeyboardArrowUp } from "react-icons/md";
 import { AboutMe } from "./components/about_me";
+import { Footer } from "./components/footer";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
             <a href="#profile">Sobre mim</a>
 
             <a href="#">Galeria</a>
-            <a id="contact" href="#">
+            <a id="contact" href="#contact_navbar">
               Contato
             </a>
           </div>
@@ -29,6 +30,9 @@ function App() {
         </div>
         <div>
           <Techs />
+        </div>
+        <div id="contact_navbar">
+          <Footer />
         </div>
       </div>
     </>

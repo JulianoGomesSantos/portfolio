@@ -19,12 +19,12 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #67e480;
+  background: #483c67;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #409651;
+  background: #483c67;
 }
 
 .toTop {
@@ -41,7 +41,7 @@ html {
   margin-right: 100px;
   margin-bottom: 100px;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #191622;
   transition: 0.8s;
 }
 

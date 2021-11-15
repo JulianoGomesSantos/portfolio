@@ -1,0 +1,25 @@
+.FooterContainer {
+  background: #191622;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  border-top: 2px solid #67e480;
+}
+
+.BottomFooterContainer {
+  height: 50px;
+  width: 100%;
+
+  color: #191622;
+
+  letter-spacing: 3px;
+  font: 700 0.9rem "Heebo";
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #67e480;
+}
