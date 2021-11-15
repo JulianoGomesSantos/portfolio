@@ -15,8 +15,9 @@ export function AboutMe() {
         <HeaderContent title="Sobre mim" />
 
         <span className="AboutMeSubHeader">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
-          dui quis orci lacinia tempus. Donec ligula ipsum
+          Oi povo, tudo bem com vocês? Bem vindos ao meu portifólio, aqui vocês
+          vão ver um pouco sobre mim e o que eu faço, então sejam{" "}
+          <span>bem vindos</span>.
         </span>
         <Separator />
         <div className="AboutMeItemsContent">
@@ -32,7 +33,7 @@ export function AboutMe() {
               <FaTools color="67e480" />
               <AboutContent
                 title="DEVELOPMENT"
-                text="O Gerador de Lero-lero para TI e informática foi baseado no Fabuloso Gerador de Lero-lero v2.0."
+                text="Sempre muito curioso de como tudo é feito, veio ao mundo dos devs para ver os bastidores de como tudo é feito, atualmente focado em front-end"
               />
             </div>
           </div>
@@ -40,7 +41,7 @@ export function AboutMe() {
             <FaPencilAlt color="67e480" />
             <AboutContent
               title="DRAWINGS"
-              text="O Gerador de Lero-lero para TI e informática foi baseado no Fabuloso Gerador de Lero-lero v2.0."
+              text="Designer que começou com desenhos convencionais e foi evoluindo até começar a fazer artes digitais, atualmente com desenhos mais pra expandindo meus horizontes"
             />
           </div>
         </div>

@@ -6,7 +6,7 @@ export function Separator() {
   return (
     <div className="SeparatorContainer">
       =====
-      <AiOutlinePoweroff />
+      <AiOutlinePoweroff color="#191622" />
       =====
     </div>
   );

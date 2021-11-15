@@ -10,8 +10,9 @@ export function Footer() {
       <div className="ContactContainer">
         <div className="Who-I-Am">
           <strong>Quem sou eu?</strong>
-          Sou Juliano Gomes, atuo com desenvolvimento de software a tantos anos
-          e blablabla bla
+          Sou Juliano Gomes, atuo atualmente com dev de software a cerca de um
+          ano, me aventurando em designer também, para assim expandir meus
+          horizontes
         </div>
         <div className="SocialMediaContainer">
           <strong>Redes sociais</strong>

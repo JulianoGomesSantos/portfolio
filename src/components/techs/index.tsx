@@ -18,8 +18,8 @@ export function Techs() {
       <div className="Content">
         <HeaderContent title="Techs" />
         <span className="TechsSubHeader">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
-          dui quis orci lacinia tempus. Donec ligula ipsum
+          Rumo ao desenvolvimento frontend, aqui você vê um pouco das
+          tecnologias que utilizo e das que estou estudando.
         </span>
         <Separator />
         <div className="TechsContentContainer">

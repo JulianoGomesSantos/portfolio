@@ -5,11 +5,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  font-family: "Heebo";
 }
 
 .AboutMeSubHeader {
   margin-top: 50px;
   margin-bottom: 30px;
+  color: #483c67;
+}
+
+.AboutMeSubHeader span {
+  color: #67e480;
 }
 .AboutMeHeader {
   border: 3px solid #67e480;
@@ -28,7 +35,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: #e7e7e7;
+  color: #483c67;
 }
 
 .AboutMeItems {
@@ -40,5 +47,5 @@
 }
 
 .Content {
-  background: #483c67;
+  background: rgb(240, 240, 240);
 }
