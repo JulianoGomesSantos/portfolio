@@ -6,6 +6,7 @@ import "./styles/home.css";
 import { MdOutlineKeyboardArrowUp } from "react-icons/md";
 import { AboutMe } from "./components/about_me";
 import { Footer } from "./components/footer";
+import { Gallery } from "./components/gallery";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <div className="LinksContainer">
             <a href="#profile">Sobre mim</a>
 
-            <a href="#">Galeria</a>
+            <a href="#gallery">Galeria</a>
             <a id="contact" href="#contact_navbar">
               Contato
             </a>
@@ -30,6 +31,9 @@ function App() {
         </div>
         <div>
           <Techs />
+        </div>
+        <div id="gallery">
+          <Gallery />
         </div>
         <div id="contact_navbar">
           <Footer />

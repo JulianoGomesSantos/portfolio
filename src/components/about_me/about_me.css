@@ -12,7 +12,7 @@
 .AboutMeSubHeader {
   margin-top: 50px;
   margin-bottom: 30px;
-  color: #483c67;
+  color: #ffffff;
 }
 
 .AboutMeSubHeader span {
@@ -35,7 +35,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: #483c67;
+  color: #ffffff;
 }
 
 .AboutMeItems {
@@ -47,5 +47,5 @@
 }
 
 .Content {
-  background: rgb(240, 240, 240);
+  border-top: 2px solid #67e480;
 }

@@ -1,0 +1,19 @@
+.GalleryContainer {
+  background: rgb(13, 12, 19);
+  background: linear-gradient(
+    360deg,
+    rgba(13, 12, 19, 1) 0%,
+    rgba(13, 12, 19, 1) 16%,
+    rgba(25, 22, 34, 1) 100%
+  );
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Heebo";
+  color: white;
+}
+.GalleryContainer h2 {
+  color: #67e480;
+}

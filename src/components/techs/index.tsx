@@ -15,7 +15,7 @@ import {
 export function Techs() {
   return (
     <div className="TechsContainer">
-      <div className="Content">
+      <div className="ContentContainer">
         <HeaderContent title="Techs" />
         <span className="TechsSubHeader">
           Rumo ao desenvolvimento frontend, aqui você vê um pouco das

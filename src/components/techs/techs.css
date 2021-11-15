@@ -11,7 +11,7 @@
   margin-top: 50px;
   margin-bottom: 30px;
   font-family: Heebo;
-  color: #483c67;
+  color: rgb(255, 255, 255);
 }
 
 .TechsContainer .TechsSubHeader {
@@ -37,7 +37,7 @@
 }
 
 .TechsContent span {
-  color: #0d0c13;
+  color: #67e480;
   font: 700 1.8rem "Heebo";
 }
 
@@ -47,4 +47,17 @@
   align-items: center;
   justify-content: space-evenly;
   font: 300 6rem "Heebo";
+}
+
+.ContentContainer {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  color: #e7e7e7;
+
+  height: 100%;
+  border-bottom: 2px solid #67e480;
 }

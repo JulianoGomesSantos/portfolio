@@ -41,7 +41,7 @@ html {
   margin-right: 100px;
   margin-bottom: 100px;
   cursor: pointer;
-  background-color: #191622;
+
   transition: 0.8s;
 }
 
@@ -50,8 +50,7 @@ html {
 }
 .NavbarContainer {
   background: #191622;
-  position: sticky;
-  top: 0;
+
   height: 70px;
   display: flex;
   justify-content: center;
