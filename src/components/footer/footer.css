@@ -115,3 +115,10 @@
   padding: 2px;
   border-radius: 50%;
 }
+.ContactFieldContainer {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+.ContactFieldContainer strong {
+  align-self: center;
+}

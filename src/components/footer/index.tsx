@@ -1,6 +1,8 @@
 import React from "react";
 import "./footer.css";
 import { RiInstagramLine, RiLinkedinFill, RiGithubLine } from "react-icons/ri";
+import { BsHouse, BsTelephone } from "react-icons/bs";
+import { AiOutlineMail } from "react-icons/ai";
 
 export function Footer() {
   return (
@@ -41,7 +43,29 @@ export function Footer() {
             </div>
           </div>
         </div>
-        <div>Contato</div>
+        <div className="ContactFieldContainer">
+          <strong>Contatos</strong>
+          <div className="ContactItemContainer">
+            <div className="SocialIcon">
+              <a className="Icon">
+                <BsHouse size={30} color={"#fff"} />
+              </a>
+              <span>Sobradinho Brasília, Brasil</span>
+            </div>
+            <div className="SocialIcon">
+              <a className="Icon">
+                <BsTelephone size={30} />
+              </a>
+              <span>4002 8922</span>
+            </div>
+            <div className="SocialIcon">
+              <a className="Icon">
+                <AiOutlineMail size={25} color={"#fff"} />
+              </a>
+              <span>julianogomes@gmail.com</span>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="BottomFooterContainer">
         @{new Date().getFullYear()} Copyright Juliano Gomes
