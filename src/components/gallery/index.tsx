@@ -3,8 +3,7 @@ import "./gallery.css";
 import Modal from "react-modal";
 
 import { AiOutlinePlusCircle, AiOutlineClose } from "react-icons/ai";
-
-const { Carousel } = require("react-carousel-minimal");
+import { CarouselComponent } from "../carousel";
 
 export function Gallery() {
   const data = [
@@ -18,15 +17,6 @@ export function Gallery() {
 
   const [url, setUrl] = useState("");
   const [name, setName] = useState("");
-
-  const captionStyle = {
-    fontSize: "2em",
-    fontWeight: "bold",
-  };
-  const slideNumberStyle = {
-    fontSize: "20px",
-    fontWeight: "bold",
-  };
 
   if (clicked) {
     return (
@@ -88,32 +78,7 @@ export function Gallery() {
             padding: "0 20px",
           }}
         >
-          <Carousel
-            data={data}
-            time={2000}
-            width="850px"
-            height="500px"
-            captionStyle={captionStyle}
-            radius="10px"
-            slideNumber={true}
-            slideNumberStyle={slideNumberStyle}
-            captionPosition="bottom"
-            automatic={true}
-            dots={true}
-            pauseIconColor="white"
-            pauseIconSize="40px"
-            slideBackgroundColor="darkgrey"
-            slideImageFit="cover"
-            thumbnails={true}
-            thumbnailWidth="100px"
-            thumbnailHeight="100px"
-            style={{
-              textAlign: "center",
-              maxWidth: "850px",
-              maxHeight: "500px",
-              margin: "40px auto",
-            }}
-          />
+          <CarouselComponent data={data} />
         </div>
       </div>
     </div>
