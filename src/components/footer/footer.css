@@ -1,5 +1,5 @@
 .FooterContainer {
-  background: #191622;
+  background: #0d0c13;
   height: 380px;
   display: flex;
   align-items: center;
@@ -7,6 +7,15 @@
   flex-direction: column;
 
   border-top: 2px solid #67e480;
+}
+
+.ContactContainer {
+  color: white;
+  width: 80%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: "Heebo";
 }
 
 .BottomFooterContainer {
@@ -22,4 +31,87 @@
   align-items: center;
   justify-content: center;
   background: #67e480;
+}
+
+.Who-I-Am {
+  display: grid;
+  align-self: center;
+  grid-template-rows: 1fr 2fr;
+  width: 85%;
+  height: 100%;
+}
+
+.Who-I-Am strong {
+  align-self: center;
+}
+
+.SocialMediaContainer {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+.SocialMediaContainer strong {
+  align-self: center;
+}
+.SocialIcon {
+  height: 40px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.SocialIcon span {
+  width: 70%;
+  align-self: flex-start;
+}
+.SocialIcon:hover {
+  color: #67e480;
+}
+
+.Icon:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+#instagram {
+  transition: 0.2s;
+}
+#instagram:hover {
+  background: rgb(161, 34, 195);
+  background: linear-gradient(
+    214deg,
+    rgb(186, 30, 230) 0%,
+    rgba(181, 34, 168, 1) 39%,
+    rgba(195, 34, 151, 1) 50%,
+    rgb(255, 192, 56) 100%
+  );
+  transform: translateY(-3px);
+  transform: translateY(-3px);
+  /* box-shadow: 0 4px 17px rgba(197, 197, 197, 0.521); */
+  color: #ffffff;
+
+  color: #ffffff;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+#github {
+  color: white;
+  transition: 0.2s;
+}
+#github:hover {
+  background: white;
+  color: black;
+  padding: 2px;
+  border-radius: 50%;
+}
+#linkedin {
+  transition: 0.2s;
+}
+#linkedin:hover {
+  background: #2867b2;
+
+  padding: 2px;
+  border-radius: 50%;
 }
