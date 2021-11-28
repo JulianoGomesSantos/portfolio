@@ -1,0 +1,22 @@
+.notFoundContainer {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: #191622;
+
+  color: #fff;
+  font: 700 1.1rem 'Heebo';
+}
+
+.notFoundContainer span {
+  color: #988bc7;
+  transition: 0.3;
+  cursor: pointer;
+}
+
+.notFoundContainer span:hover {
+  color: #67e480;
+}

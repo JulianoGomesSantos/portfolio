@@ -1,14 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import './gallery.css';
 import Modal from 'react-modal';
-
-import { AiOutlinePlusCircle, AiOutlineClose } from 'react-icons/ai';
+import { useNavigate } from 'react-router';
+import {
+  AiOutlinePlusCircle,
+  AiOutlineClose,
+  AiOutlineTool,
+} from 'react-icons/ai';
 import { CarouselComponent } from '../carousel';
-import { appendFileSync } from 'fs';
 
 import api from '../../services/api';
 
 export function Gallery() {
+  const navigate = useNavigate();
+
   const [clicked, setClicked] = useState(false);
 
   const [url, setUrl] = useState('');
@@ -86,6 +91,12 @@ export function Gallery() {
         <div>
           <AiOutlinePlusCircle
             onClick={() => setClicked(true)}
+            size={32}
+            id="addImageIcon"
+          />
+
+          <AiOutlineTool
+            onClick={() => navigate('/gallery')}
             size={32}
             id="addImageIcon"
           />

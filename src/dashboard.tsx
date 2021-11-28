@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Gallery() {
+export default function Dashboard() {
   return (
     <div>
       <h1>Gallery</h1>
