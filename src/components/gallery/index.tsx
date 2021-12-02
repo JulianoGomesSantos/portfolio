@@ -38,8 +38,6 @@ export function Gallery() {
     });
   }
 
-  handleInsert();
-
   if (clicked) {
     return (
       <Modal
@@ -56,7 +54,7 @@ export function Gallery() {
         }}
       >
         <div className="GalleryModalContainer">
-          <form>
+          <div className="Form">
             <input
               type="text"
               required
@@ -69,8 +67,8 @@ export function Gallery() {
               placeholder="Nome da imagem"
               onChange={(event) => setName(event.target.value)}
             />
-            <input type="submit" value="SALVAR" />
-          </form>
+            <input type="submit" value="SALVAR" onClick={handleInsert} />
+          </div>
           <div
             className="Preview"
             style={{

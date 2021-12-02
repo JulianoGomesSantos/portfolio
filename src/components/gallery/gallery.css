@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
 
-  font-family: "Heebo";
+  font-family: 'Heebo';
   color: #67e480;
 }
 .GalleryContainer h2 {
@@ -57,7 +57,7 @@
   background-size: cover;
 }
 
-.GalleryModalContiner form {
+.GalleryModalContiner .Form {
   height: 100%;
   width: 50%;
   display: flex;
@@ -66,7 +66,7 @@
   flex-direction: column;
 }
 
-.GalleryModalContainer form {
+.GalleryModalContainer .Form {
   height: 100%;
   width: 50%;
   display: flex;
@@ -75,7 +75,7 @@
   flex-direction: column;
 }
 
-.GalleryModalContainer form > * {
+.GalleryModalContainer .Form > * {
   width: 80%;
   height: 30px;
   outline: none;
@@ -83,7 +83,7 @@
   margin-bottom: 20px;
 }
 
-form > input[type="text"] {
+.Form > input[type='text'] {
   color: white;
   background: transparent;
   border-top: none;
@@ -95,30 +95,30 @@ form > input[type="text"] {
   transition: 0.3s;
 }
 
-form input[type="text"]:hover {
+.Form input[type='text']:hover {
   color: #67e480;
 
   border-bottom: 2px solid #67e480;
 }
 
-form input[type="text"]:focus {
+.Form input[type='text']:focus {
   color: #67e480;
 
   border-bottom: 2px solid #67e480;
 }
 
-form > input[type="submit"] {
+.Form > input[type='submit'] {
   border: 2px solid #67e480;
   border-radius: 2px;
   background: transparent;
   color: #67e480;
   height: 60px;
-  font: 700 1rem "Heebo";
+  font: 700 1rem 'Heebo';
   transition: 0.3s;
 }
 
-form > input[type="submit"]:hover {
+.Form > input[type='submit']:hover {
   background: #67e480;
   color: #0d0c13;
-  font: 700 1rem "Heebo";
+  font: 700 1rem 'Heebo';
 }
